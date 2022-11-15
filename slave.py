@@ -12,7 +12,7 @@ print(" Connected to server ")
 
 command = s.recv(1024)
 command = command.decode()
-if command == "nigger":
+if command == "what":
     print("")
     print("Shutdown command")
     s.send("command.received".encode())
